@@ -1,29 +1,23 @@
 +++
-title = "About Hugo"
+title = "About Me"
 slug = "about"
 +++
 
-Hugo is a static site engine written in Go.
+Guilherme Teixeira is an IT Consultant with focus on Software Architecture and Engineering, specialized on Cloud Native applications.
 
+He graduated from the Federal University of Rio Grande do Sul in Brazil, one of the most recognized universities in South America, with a bachelor in Computer Science. He has worked as a Software Engineer at Hewlett-Packard Enterprise in Brazil, before moving to Germany.
 
-It makes use of a variety of open source projects including:
+In Germany, Guilherme worked for Accenture, where his activities were mostly focused on Lightweight Architectures based on Microservices. Later on, he took a position as Blockchain Architect at IBM, where his most notable activities include the lead architect role for [Thank My Farmer](https://www.ibm.com/thought-leadership/coffee/), a consumer-based Progressive Web App in the consumer goods industry.
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+## Skills
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+His skills include, but not limited to:
 
-## Setup
+* Kubernetes, Docker
+* Java, Javascript, Typescript
+* Azure, IBM Cloud, Google Cloud
+* REST APIs
 
-Some fun facts about [Hugo](http://gohugo.io/):
+To get in touch, send an e-mail to: gui@teixeira.io
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
+{{< figure src="/images/avatar2.jpg" caption="" >}}
