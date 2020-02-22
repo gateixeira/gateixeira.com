@@ -13,7 +13,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "Gui"
 
 [params]
     author = "Guilherme Teixeira"
@@ -22,10 +22,12 @@ disqusShortname = "yourdiscussshortname"
     info = "Software Architect & Engineer"
     avatarurl = "images/avatar.jpg"
     footercontent = ""
+    favicon_32 = "/images/favicon-32x32.png"
+    favicon_16 = "/images/favicon-16x16.png"
 
     dateformat = "January 2, 2006"
 
-    hideCredits = false
+    hidefavCredits = false
     hideCopyright = false
     #since = 2019
 
@@ -67,25 +69,25 @@ disqusShortname = "yourdiscussshortname"
     weight = 1
     url = "https://github.com/gateixeira/"
 [[params.social]]
-    name = "Instagram"
-    icon = "fab fa-instagram"
-    weight = 2
-    url = "https://instagram.com/gateixeira/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    weight = 3
-    url = "https://twitter.com/gateixeira/"
-[[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/gateixeira/"
 [[params.social]]
-    name = "Medium"
-    icon = "fab fa-medium"
-    weight = 5
-    url = "https://medium.com/@gateixeira"
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 3
+    url = "https://twitter.com/gateixeira/"
+#[[params.social]]
+#    name = "Instagram"
+#    icon = "fab fa-instagram"
+#    weight = 2
+#    url = "https://instagram.com/gateixeira/"
+#[[params.social]]
+#    name = "Medium"
+#    icon = "fab fa-medium"
+#    weight = 5
+#    url = "https://medium.com/@gui.andrighetto"
 
 [languages]
     [languages.en]
@@ -149,7 +151,7 @@ disqusShortname = "yourdiscussshortname"
         languagename = "Deutsch"
 
         [languages.de-de.params]
-            info = "Softwarearchitekt/-entwickler"
+            info = "Software-Architekt und -Entwickler"
             description = "Gui's persönliche Webseite"
             keywords = "blog,entwickler,webseite"
             footercontent = ""

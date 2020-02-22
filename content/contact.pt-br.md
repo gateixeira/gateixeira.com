@@ -3,4 +3,8 @@ title = "Contato"
 slug = "contact"
 +++
 
-Me siga em @joaoninguem.
+Guilherme Teixeira
+
+E-mail: gui@teixeira.io
+
+Bio e CV no [LinkedIn](https://linkedin.com/in/gateixeira)
