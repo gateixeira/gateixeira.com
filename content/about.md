@@ -23,6 +23,7 @@ His skills include, but are not limited to:
 * DevOps, CI/CD
 * Azure, IBM Cloud, Google Cloud
 * RESTful APIs, multiple SQL and NoSQL databases
+* Agile, Kanban, Lean
 * Multiple tools and frameworks like Gradle, Maven, jUnit, Mocha, Chai, Webpack, Bootstrap, etc...
 
 ## Languages
