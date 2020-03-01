@@ -1,4 +1,4 @@
-+++
+<!--+++
 date = "2014-04-02"
 title = "(Hu)go Template Primer"
 slug = "hugo-template-primer"
@@ -14,7 +14,7 @@ categories = [
     "golang",
 ]
 series = ["Getting Started", "Hugo"]
-+++
++++-->
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for
 its template engine. It is an extremely lightweight engine that provides a very

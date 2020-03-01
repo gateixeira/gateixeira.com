@@ -1,4 +1,4 @@
-+++
+<!--+++
 date = "2014-04-02"
 title = "Getting Started with Hugo"
 tags = [
@@ -13,7 +13,7 @@ categories = [
 ]
 series = ["Getting Started", "Hugo"]
 featured_image = "https://imgs.xkcd.com/comics/angular_momentum.jpg"
-+++
++++-->
 
 ## Step 1. Install Hugo
 

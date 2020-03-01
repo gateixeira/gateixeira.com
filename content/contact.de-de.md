@@ -5,7 +5,7 @@ slug = "contact"
 
 Guilherme Teixeira
 
-E-mail: gui@teixeira.io
+E-mail: contact@gateixeira.com
 
 Bio und aktualisierter Lebenslauf auf [LinkedIn](https://linkedin.com/in/gateixeira)
 

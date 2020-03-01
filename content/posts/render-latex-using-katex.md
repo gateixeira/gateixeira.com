@@ -1,10 +1,10 @@
-+++
+<!--+++
 date = "2019-03-20"
 title = "Render LaTeX using KaTeX"
 description = "Katex support demo"
 katex = true
 series = ["Theme", "Hugo"]
-+++
++++-->
 
 Enable katex by adding `katex = "true"` to the [front matter](https://gohugo.io/content-management/front-matter/)  
 

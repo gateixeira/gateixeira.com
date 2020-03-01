@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "Guilherme Teixeira"
+baseurl = "http://www.gateixeira.com"
+title = "gateixeira"
 
 theme = "hugo-coder"
 
@@ -100,10 +100,10 @@ disqusShortname = "Gui"
             weight = 1
             url = "about/"
 
-            [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
+            #[[languages.en.menu.main]]
+            #name = "Blog"
+            #weight = 2
+            #url = "posts/"
 
             [[languages.en.menu.main]]
             name = "Projects"
@@ -132,10 +132,10 @@ disqusShortname = "Gui"
             weight = 1
             url = "about/"
 
-            [[languages.pt-br.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
+            #$[[languages.pt-br.menu.main]]
+            #name = "Blog"
+            #weight = 2
+            #url = "posts/"
 
             [[languages.pt-br.menu.main]]
             name = "Projetos"
@@ -163,10 +163,10 @@ disqusShortname = "Gui"
             weight = 1
             url = "about/"
 
-            [[languages.de-de.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
+            #[[languages.de-de.menu.main]]
+            #name = "Blog"
+            #weight = 2
+            #url = "posts/"
 
             [[languages.de-de.menu.main]]
             name = "Projekte"
@@ -177,3 +177,51 @@ disqusShortname = "Gui"
             name = "Kontakt"
             weight = 5
             url = "contact/"
+[deployment]
+# By default, files are uploaded in an arbitrary order.
+# Files that match the regular expressions in the "Order" list
+# will be uploaded first, in the listed order.
+order = [".jpg$", ".gif$"]
+
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "personal"
+# The Go Cloud Development Kit URL to deploy to. Examples:
+# GCS; see https://gocloud.dev/howto/blob/#gcs
+ URL = "gs://www.gateixeira.com"
+
+# S3; see https://gocloud.dev/howto/blob/#s3
+# For S3-compatible endpoints, see https://gocloud.dev/howto/blob/#s3-compatible
+# URL = "s3://<Bucket Name>?region=<AWS region>"
+
+# Azure Blob Storage; see https://gocloud.dev/howto/blob/#azure
+# URL = "azblob://$web"
+
+# You can use a "prefix=" query parameter to target a subfolder of the bucket:
+# URL = "gs://<Bucket Name>?prefix=a/subfolder/"
+
+# If you are using a CloudFront CDN, deploy will invalidate the cache as needed.
+#cloudFrontDistributionID = <ID>
+
+
+# ... add more [[deployment.targets]] sections ...
+
+
+# [[deployment.matchers]] configure behavior for files that match the Pattern.
+# Samples:
+
+[[deployment.matchers]]
+#  Cache static assets for 1 year.
+pattern = "^.+\\.(js|css|svg|ttf)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = true
+
+[[deployment.matchers]]
+pattern = "^.+\\.(png|jpg)$"
+cacheControl = "max-age=31536000, no-transform, public"
+gzip = false
+
+[[deployment.matchers]]
+pattern = "^.+\\.(html|xml|json)$"
+gzip = true

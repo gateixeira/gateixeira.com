@@ -15,6 +15,7 @@ For more details, access his [LinkedIn profile](https://www.linkedin.com/in/gate
 
 ## Skills
 
+Having worked as a consultant from many years, Guilherme is experienced in building cloud native applications.
 His skills include, but are not limited to:
 
 * Java Enterprise, Javascript, Typescript, ReactJS, NodeJS
