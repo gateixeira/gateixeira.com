@@ -2,7 +2,7 @@ baseurl = "http://www.gateixeira.com"
 title = "gateixeira"
 
 theme = "hugo-coder"
-
+googleAnalytics = "UA-163449981-1"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
@@ -16,10 +16,10 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "Gui"
 
 [params]
-    author = "Guilherme Teixeira"
+    author = "Gui Teixeira"
     description = "Gui's personal website"
     keywords = "blog,developer,personal"
-    info = "Software Architect & Engineer"
+    info = "IT Consultant"
     avatarurl = "images/avatar.jpg"
     footercontent = ""
     favicon_32 = "/images/favicon-32x32.png"
@@ -100,10 +100,10 @@ disqusShortname = "Gui"
             weight = 1
             url = "about/"
 
-            #[[languages.en.menu.main]]
-            #name = "Blog"
-            #weight = 2
-            #url = "posts/"
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
 
             [[languages.en.menu.main]]
             name = "Projects"
@@ -120,7 +120,7 @@ disqusShortname = "Gui"
         languagename = "Português"
 
         [languages.pt-br.params]
-            info = "Arquiteto e Engenheiro de Software"
+            info = "Consultor de TI"
             description = "Site pessoal do Guilherme Teixeira"
             keywords = "blog,desenvolvedor,pessoal"
             footercontent = ""
@@ -151,7 +151,7 @@ disqusShortname = "Gui"
         languagename = "Deutsch"
 
         [languages.de-de.params]
-            info = "Software-Architekt und -Entwickler"
+            info = "IT-Berater"
             description = "Gui's persönliche Webseite"
             keywords = "blog,entwickler,webseite"
             footercontent = ""

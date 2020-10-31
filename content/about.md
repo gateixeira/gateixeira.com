@@ -3,7 +3,9 @@ title = "About Me"
 slug = "about"
 +++
 
-Guilherme Teixeira is an IT Consultant with many years of experience in Software Architecture and Engineering, specialized on Cloud Native applications.
+Guilherme Teixeira, or simply "Gui", is a Software engineer with many years of experience building large scale systems, with focus on Cloud Native applications.
+
+Guilherme offers consulting services across the whole life-cycle of IT applications for small and large businesses.
 
 He graduated from the Federal University of Rio Grande do Sul in Brazil, one of the most recognized universities in South America, with a bachelor in Computer Science. He has worked as a Software Engineer at Hewlett-Packard Enterprise in Brazil, before moving to Germany.
 
@@ -12,6 +14,10 @@ In Germany, Guilherme worked for Accenture, where his activities were mostly foc
 Guilherme holds a Brazilian and Italian citizenship, therefore being legally allowed to work anywhere in the European Union.
 
 For more details, access his [LinkedIn profile](https://www.linkedin.com/in/gateixeira/). 
+
+## Contact
+
+If your aim is modernizing your IT Systems, bringing the latest of cloud techonologies together with user experience, don't hesitate to reach out at "contact@gateixeira.com".
 
 ## Skills
 
