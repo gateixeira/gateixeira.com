@@ -40,4 +40,3 @@ His skills include, but are not limited to:
 * German - Business fluent
 * Spanish - Good knowledge
 
-{{< figure src="/images/avatar2.jpg" caption="" >}}

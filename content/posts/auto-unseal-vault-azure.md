@@ -84,7 +84,7 @@ The last step at Azure portal is to **create a key on Key Vault**, which will be
 At this point, you finished all the needed configuration on Azure and are left with some important information that will allow your Vault to communicate and auto-unseal. To set it up, what we will do is to create a *values.yaml* file for Helm, based on [Vault's official helm chart](https://github.com/hashicorp/vault-helm). In our scenario, to have a good trade-off between security, availability and ease of configuration we are going to bootstrap Vault with 2 replicas in a Raft mode as the storage type. Where Raft consensus algorithm supports High Availability and ensures data replication across replicas. The data is stored encrypted in a Kubernetes persistent volume. It's important to highlight that since our Kubernetes setup aims a local Minikube instance, we need to clean up the pod affinity configuration, otherwise the second instance will not start up due to an IP conflict in a single-node environment. If you're configuring this on a multi-node setup, simply remove the "affinity" tag from your *values.yaml*. You can use the following yaml file and just replace it with your Azure information:
 
 
-```
+```yaml
 server:
   affinity: "" #important: set affinity empty if you're using a single-node cluster, like Minikube
   ha:
@@ -132,7 +132,7 @@ Since you probably noted down all values along the way, it should be quite strai
 With all that filled out, all you need to do is to set up your Vault. Let's assume you are doing a local configuration (not on AKS, which shouldn't differ in terms of Vault commands). First, initialise Minikube:
 
 
-```
+```bash
 ~/code/demos/vault > minikube start --memory 4096 --cpus 2 --disk-size 10g --kubernetes-version v1.18.8
   😄  minikube v1.13.1 on Darwin 10.15.6
   ❗  Both driver=docker and vm-driver=virtualbox have been set.
@@ -151,7 +151,7 @@ With all that filled out, all you need to do is to set up your Vault. Let's assu
 Then add the Hashicorp's repository to your helm repos:
 
 
-```
+```bash
 ~/code/demos/vault > helm repo add hashicorp https://helm.releases.hashicorp.com                                                                                                                                            
 "hashicorp" has been added to your repositories
 ```
@@ -160,7 +160,7 @@ Then add the Hashicorp's repository to your helm repos:
 Next, install the Vault Helm chart with your *values.yaml* as input:
 
 
-```
+```bash
 ~/code/demos/vault > helm install vault hashicorp/vault -f values.yaml  
                                                                                                                                                         
   NAME: vault
@@ -183,7 +183,7 @@ Next, install the Vault Helm chart with your *values.yaml* as input:
 At this point, you should have two replicas of your Vault plus the agent injector pod for communication with your applications. Note that neither of your vault pods are "ready":
 
 
-```
+```bash
 ~/code/demos/vault > kubectl get pods                                                                                                                                                                                           
 NAME                                    READY   STATUS    RESTARTS   
 vault-0                                 0/1     Running   0          
@@ -195,7 +195,7 @@ vault-agent-injector-857cdd9594-b9rdh   1/1     Running   0
 This happens because Vault will only try to fetch the unseal key once initialised. But if you check the pods logs, you see that the AzurePublicCloud configuration is in fact enabled:
 
 
-```
+```bash
 ~/code/demos/vault > kubectl logs -f vault-0                                                                                                                                                                                    
 ==> Vault server configuration:
 Azure Environment: AzurePublicCloud
@@ -223,7 +223,7 @@ Azure Environment: AzurePublicCloud
 Just init your Vault instance directly on pod vault-0 (and keep your generated keys):
 
 
-```
+```bash
 ~/code/demos/vault > kubectl exec -it vault-0 vault operator init                                                                                                                                                     
 Recovery Key 1: FKjt5wkzN5bUBIuR52KrPP1c2Il/f7RZdn5E+ipfNF8s
 Recovery Key 2: FCzUyduESPyavh6QtqWZpdnUDKa3bEEpBHbX3NgTrCiU
@@ -240,7 +240,7 @@ securely distribute the key shares printed above.
 Now, for the first time, we see the Vault unsealer in action:
 
 
-```
+```bash
 ~/code/demos/vault > kubectl get pods                                                                                                                                                                                       
 NAME                                    READY   STATUS    RESTARTS   
 vault-0                                 1/1     Running   0          
@@ -253,7 +253,7 @@ Pod *vault-0* has been initialised and came up unsealed, meaning that we configu
 However, our replica *vault-1* is still not ready. This one will be a follower pod of the leader *vault-0*. In order to make *vault-0* visible, we need to login using our root token (be aware of not overusing and sharing the root token on production):
 
 
-```
+```bash
 ~/code/demos/vault > kubectl exec -it vault-0 -- vault login s.d0LAlSnAerb4a7d6ibkfxrZy                                                                                                                                     
 Success! You are now authenticated. The token information displayed below
 is already stored in the token helper. You do NOT need to run "vault login"
@@ -273,7 +273,7 @@ policies             ["root"]
 Next, we join *vault-1* in the cluster:
 
 
-```
+```bash
 ~/code/demos/vault > kubectl exec -it vault-1 -- vault operator raft join http://vault-0.vault-internal:8200                                                                                                                    
 Key       Value
 ---       -----
@@ -284,7 +284,7 @@ Joined    true
 a kubectl get pods shows now that all pods are ready:
 
 
-```
+```bash
 ~/code/demos/vault > kubectl get pods                                                                                                                                                                                           
 NAME                                    READY   STATUS    RESTARTS   
 vault-0                                 1/1     Running   0          
@@ -296,7 +296,7 @@ vault-agent-injector-857cdd9594-b9rdh   1/1     Running   0
 Finally, to prove that our goal has been achieved, if you delete one of the pods the new pod starts up unsealed just like the others:
 
 
-```
+```bash
 ~/code/demos/vault > kubectl delete pod vault-0                                                                                                                                                                                 
 pod "vault-0" deleted
 ~/code/demos/vault > kubectl get pods                                                                                                                                                                                       

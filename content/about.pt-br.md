@@ -35,5 +35,3 @@ Seus skills incluem:
 * Inglês - fluente
 * Alemão - fluente
 * Espanhol - bom conhecimento
-
-{{< figure src="/images/avatar2.jpg" caption="" >}}

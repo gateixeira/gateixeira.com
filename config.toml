@@ -19,7 +19,7 @@ disqusShortname = "Gui"
     author = "Gui Teixeira"
     description = "Gui's personal website"
     keywords = "blog,developer,personal"
-    info = "IT Consultant"
+    info = "Software Engineer"
     avatarurl = "images/avatar.jpg"
     footercontent = ""
     favicon_32 = "/images/favicon-32x32.png"
@@ -101,26 +101,15 @@ disqusShortname = "Gui"
             url = "about/"
 
             [[languages.en.menu.main]]
-            name = "Blog"
+            name = "Posts"
             weight = 2
             url = "posts/"
-
-            [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 3
-            url = "projects/"
-
-            [[languages.en.menu.main]]
-            name = "Contact me"
-            weight = 5
-            url = "contact/"
-
 
     [languages.pt-br]
         languagename = "Português"
 
         [languages.pt-br.params]
-            info = "Consultor de TI"
+            info = "Engenheiro de Software"
             description = "Site pessoal do Guilherme Teixeira"
             keywords = "blog,desenvolvedor,pessoal"
             footercontent = ""
@@ -133,25 +122,15 @@ disqusShortname = "Gui"
             url = "about/"
 
             #$[[languages.pt-br.menu.main]]
-            #name = "Blog"
+            #name = "Posts"
             #weight = 2
             #url = "posts/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Projetos"
-            weight = 3
-            url = "projects/"
-
-            [[languages.pt-br.menu.main]]
-            name = "Contato"
-            weight = 5
-            url = "contact/"
 
     [languages.de-de]
         languagename = "Deutsch"
 
         [languages.de-de.params]
-            info = "IT-Berater"
+            info = "Softwareentwickler"
             description = "Gui's persönliche Webseite"
             keywords = "blog,entwickler,webseite"
             footercontent = ""
@@ -164,19 +143,10 @@ disqusShortname = "Gui"
             url = "about/"
 
             #[[languages.de-de.menu.main]]
-            #name = "Blog"
+            #name = "Posts"
             #weight = 2
             #url = "posts/"
 
-            [[languages.de-de.menu.main]]
-            name = "Projekte"
-            weight = 3
-            url = "projects/"
-
-            [[languages.de-de.menu.main]]
-            name = "Kontakt"
-            weight = 5
-            url = "contact/"
 [deployment]
 # By default, files are uploaded in an arbitrary order.
 # Files that match the regular expressions in the "Order" list

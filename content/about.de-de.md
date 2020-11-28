@@ -37,5 +37,3 @@ Zu seinen Fähigkeiten gehören:
 * Englisch - Verhandlungssicher
 * Deutsch - Verhandlungssicher
 * Spanisch - Gute Kenntnisse
-
-{{< figure src="/images/avatar2.jpg" caption="" >}}
