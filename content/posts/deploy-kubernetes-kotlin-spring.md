@@ -4,6 +4,7 @@ title = "Deploying a Spring Boot Kotlin app on Kubernetes with Docker and Helm"
 slug = "spring-boot-kubernetes-kotlin-docker" 
 tags = ["spring boot", "docker", "kubernetes", "kotlin", "helm"]
 categories = []
+images ["spring-initializr.png"]
 series = ["helm", "Kubernetes"]
 +++
 
