@@ -122,10 +122,10 @@ disqusShortname = "Gui"
             weight = 1
             url = "about/"
 
-            #$[[languages.pt-br.menu.main]]
-            #name = "Posts"
-            #weight = 2
-            #url = "posts/"
+            [[languages.pt-br.menu.main]]
+            name = "Posts"
+            weight = 2
+            url = "posts/"
 
     [languages.de-de]
         languagename = "Deutsch"
@@ -143,10 +143,10 @@ disqusShortname = "Gui"
             weight = 1
             url = "about/"
 
-            #[[languages.de-de.menu.main]]
-            #name = "Posts"
-            #weight = 2
-            #url = "posts/"
+            [[languages.de-de.menu.main]]
+            name = "Posts"
+            weight = 2
+            url = "posts/"
 
 [deployment]
 # By default, files are uploaded in an arbitrary order.
