@@ -3,7 +3,7 @@ title = "About Me"
 slug = "about"
 +++
 
-I'm Gui, an italo:it:-brazilian:brazil: freelancer Software Engineer and Architect. I'm based in Germany, living here for the past 5 years. 
+I'm an italo:it:-brazilian:brazil: freelancer Software Engineer and Architect. I'm based in Germany, living here for the past 5 years. 
 
 On my journey, I've helped companies of all sizes with building efficient and scalable systems, with focus on cloud native applications and microservices.
 

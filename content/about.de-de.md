@@ -3,7 +3,7 @@ title = "Über mich"
 slug = "about"
 +++
 
-Ich bin Gui, ein italienisch:it:-brasilianischer:brazil: Freiberuflicher Softwareentwickler und Architekt und bin in Deutschland seit 5 Jahren ansässig. 
+Ich bin ein italienisch:it:-brasilianischer:brazil: Freiberuflicher Softwareentwickler und Architekt und bin in Deutschland seit 5 Jahren ansässig. 
 
 Zu meinen bisherigen Erfahrungen gehört die Üntersützung von Unternehmen aller Größen beim Aufbau effizienter und skalierbarer Systeme mit Schwerpunkt auf nativen Cloud-Anwendungen und Microservices.
 
