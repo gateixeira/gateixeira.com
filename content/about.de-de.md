@@ -3,21 +3,17 @@ title = "Über mich"
 slug = "about"
 +++
 
-Guilherme Teixeira, oder einfach "Gui", ist ein Software-Ingenieur mit langjähriger Erfahrung im Bau von Großsystemen mit Schwerpunkt auf Cloud-Native-Anwendungen.
+Ich bin Gui, ein italienisch:it:-brasilianischer:brazil: Freiberuflicher Softwareentwickler und Architekt und bin in Deutschland seit 5 Jahren ansässig. 
 
-Guilherme bietet Beratungsdienste über den gesamten Lebenszyklus von IT-Anwendungen für kleine und große Unternehmen an.
+Zu meinen bisherigen Erfahrungen gehört die Üntersützung von Unternehmen aller Größen beim Aufbau effizienter und skalierbarer Systeme mit Schwerpunkt auf nativen Cloud-Anwendungen und Microservices.
 
-Er schloss sein Studium an der Bundesuniversität Rio Grande do Sul in Brasilien, einer der anerkanntesten Universitäten Südamerikas, mit einem Bachelor in Informatik ab. Vor seinem Umzug nach Deutschland arbeitete er als Software-Ingenieur bei Hewlett-Packard Enterprise in Brasilien.
+Nach meinem Abschluss in Informatik an der Bundesuniversität Rio Grande do Sul in Brasilien, einer der besten Universitäten Südamerikas, arbeite ich seit Beginn meiner Karriere mit komplexen Systemen. Alles begann in Brasilien als Software-Ingenieur bei [Hewlett-Packard Enterprise] (https://www.hpe.com/). In Deutschland war ich als Berater für Accenture tätig, mit Schwerpunkt auf leichten Architekturen auf der Basis von Mikrodiensten. Später nahm ich eine Stelle als Blockchain Architect bei IBM an, wo zu meinen bemerkenswertesten Tätigkeiten gehört die leitende Rolle bei der Entwicklung von [Thank My Farmer](https://www.thankmyfarmer.com), einer verbraucherbasierten progressiven Webanwendung in der [Konsumgüterindustrie](https://www.ibm.com/thought-leadership/coffee/).
 
-In Deutschland arbeitete Guilherme für Accenture, wo sich seine Aktivitäten vor allem auf Architektur auf der Basis von Microservices konzentrierten. Später nahm er eine Stelle als Blockchain Architect bei IBM an, wo er unter anderem die führende Rolle als Architekt für [Thank My Farmer](https://www.ibm.com/thought-leadership/coffee/) übernommen hat, eine verbraucherbasierte Progressive Web App in der Konsumgüterindustrie, für die er auch heute noch Dienstleistungen erbringt.
+Abgesehen davon, dass ich ein Techie bin, als guter Südamerikaner rede ich oft über Fussball, während ich einen [Mate Tee](https://de.wikipedia.org/wiki/Mate-Tee) :mate: trinke.
 
-Guilherme besitzt die brasilianische und italienische Staatsbürgerschaft und darf daher überall in der Europäischen Union legal arbeiten.
 
-Weitere Einzelheiten finden Sie in seinem [LinkedIn-Profil](https://www.linkedin.com/in/gateixeira/).
-
-## Contact
-
-Wenn Ihr Ziel darin besteht, Ihre IT-Systeme zu modernisieren und die neuesten Cloud-Technologien mit der User Experience zusammenzubringen, zögern Sie nicht, sich an "contact@gateixeira.com" zu wenden.
+> :email: Möchten Sie zusammenarbeiten? Schicken Sie mir eine Nachricht:
+gui@gateixeira.com
 
 ## Skills
 

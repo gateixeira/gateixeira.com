@@ -3,26 +3,18 @@ title = "About Me"
 slug = "about"
 +++
 
-Guilherme Teixeira, or simply "Gui", is a Software engineer with many years of experience building large scale systems, with focus on Cloud Native applications.
+I'm Gui, an italo:it:-brazilian:brazil: freelancer Software Engineer and Architect. I'm based in Germany, living here for the past 5 years. 
 
-Guilherme offers consulting services across the whole life-cycle of IT applications for small and large businesses.
+On my journey, I've helped companies of all sizes with building efficient and scalable systems, with focus on cloud native applications and microservices.
 
-He graduated from the Federal University of Rio Grande do Sul in Brazil, one of the most recognized universities in South America, with a bachelor in Computer Science. He has worked as a Software Engineer at Hewlett-Packard Enterprise in Brazil, before moving to Germany.
+Graduated in Computer Science from the Federal University of Rio Grande do Sul in Brazil, one of the most recognized universities in South America, I've been working with complex systems since the beginning of my career. It all started in Brazil, as a Software Engineer for [Hewlett-Packard Enterprise](https://www.hpe.com/). In Germany, I was a consultant for Accenture with focus on Lightweight Architectures based on Microservices. Later on, I took a position as Blockchain Architect at IBM, where my most notable activity was the lead development role for [Thank My Farmer](https://www.thankmyfarmer.com), a consumer-based Progressive Web App in the consumer [goods industry](https://www.ibm.com/thought-leadership/coffee/).
 
-In Germany, Guilherme worked for Accenture, where his activities were mostly focused on Lightweight Architectures based on Microservices. Later on, he took a position as Blockchain Architect at IBM, where his most notable activities include the lead architect role for [Thank My Farmer](https://www.ibm.com/thought-leadership/coffee/), a consumer-based Progressive Web App in the consumer goods industry, to which he still provides services.
+Besides being a techie, as a good south-american, you're always going to hear me talking about football while enjoying a [Mate](https://en.wikipedia.org/wiki/Mate_(drink)) :mate:
 
-Guilherme holds a Brazilian and Italian citizenship, therefore being legally allowed to work anywhere in the European Union.
+> :email: Want to work together? Reach out on my [LinkedIn profile](https://www.linkedin.com/in/gateixeira/) or shoot me a message: gui@gateixeira.com
 
-For more details, access his [LinkedIn profile](https://www.linkedin.com/in/gateixeira/). 
-
-## Contact
-
-If your aim is modernizing your IT Systems, bringing the latest of cloud techonologies together with user experience, don't hesitate to reach out at "contact@gateixeira.com".
 
 ## Skills
-
-Having worked as a consultant from many years, Guilherme is experienced in building cloud native applications.
-His skills include, but are not limited to:
 
 * Java Enterprise, Javascript, Typescript, ReactJS, NodeJS
 * Spring Framework (i.e. SpringBoot)

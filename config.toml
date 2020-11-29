@@ -13,6 +13,8 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+enableEmoji = true
+
 disqusShortname = "Gui"
 
 [params]
@@ -24,7 +26,6 @@ disqusShortname = "Gui"
     footercontent = ""
     favicon_32 = "/images/favicon-32x32.png"
     favicon_16 = "/images/favicon-16x16.png"
-
     dateformat = "January 2, 2006"
 
     hidefavCredits = false
