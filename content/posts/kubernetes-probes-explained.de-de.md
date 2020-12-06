@@ -259,7 +259,7 @@ demo-spring-boot-f8bd8cdff-k8csl   0/1     Running   0          48s
 ~/code/demos/demo-spring-boot master > kubectl get pods
 NAME                               READY   STATUS    RESTARTS   AGE
 demo-spring-boot-f8bd8cdff-k8csl   0/1     Running   1          60s
-~/code/demos/demo-spring-boot master >1 !2 > kubectl get pods
+~/code/demos/demo-spring-boot master > kubectl get pods
 NAME                               READY   STATUS    RESTARTS   AGE
 demo-spring-boot-f8bd8cdff-k8csl   1/1     Running   1          79s
 ```
